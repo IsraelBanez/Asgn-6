@@ -5,6 +5,15 @@
  * TODO: Complete this file.
  */
 
-int main(void) {
+#include "fib.h"
+#include <stdio.h>
 
+int main(void) {
+        int x;
+
+        printf("Enter an integer: ");
+        scanf("%d", &x);
+        printf("f(%d) = %d\n" , x , fib(x));
+        
+        return 0;
 }
